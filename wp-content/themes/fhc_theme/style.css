@@ -1,0 +1,200 @@
+/*
+Theme name: FactoryHardcore Template
+*/
+
+body {
+  margin: 0;
+  background-image:
+  linear-gradient(
+    rgba(20,20,20,.1),
+    rgba(20,20,20,.3)),
+    url("images/bgimg4.jpg");
+  background-size: cover;
+}
+
+.hero.is-primary.is-bold {
+  background: url("http://factoryhardcore.com/wp-content/uploads/2018/05/girl-boxer-1333600_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.second-narrow {
+  width: 70%;
+  margin: 0 auto;
+}
+.footer {
+  margin-top: 100px;
+  background: rgba(128,0,0,0.5);
+  color: white;
+}
+
+/* Home Grid Styles */
+.grid-title {
+  padding: 5px 0;
+}
+.grid_fa {
+  font-size: 5em;
+}
+.card {
+  height: 250px;
+}
+.card-text {
+  padding-top: 25px;
+}
+.card-text:hover {
+  background: #b6282d;
+  color: white;
+}
+.sauna-card {
+  background: url(images/sauna.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.pain-card {
+  background: url(images/kettlebellworkoutoftheday.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.kettle-card {
+  background: url(images/ch3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.front-info {
+  background-color: white;
+}
+.join-text {
+  padding-bottom: 20px;
+}
+.featured-headline {
+  color: white;
+}
+.box {
+  background: #4D4D4D;
+}
+.box .title, .box .content {
+  color: white;
+}
+.see-more-link {
+  color: white;
+}
+
+/* Bulma Overwrites */
+
+a.link.is-info {
+  color: # b6282d !important;
+}
+.link.is-info:hover {
+  text-decoration: underline;
+}
+.navbar {
+  background: linear-gradient(to right, rgb(7, 0, 0), #b6282d, rgb(7, 0, 0));
+}
+.navbar-item, .navbar-link {
+  color: white;
+}
+.navbar-item-drop {
+  color: #4a4a4a;
+}
+a.navbar-link::after {
+  border: 1px solid white;
+  border-right: 0;
+  border-top: 0;
+}
+a.navbar-link:hover {
+  color: white;
+  background: #b6282d !important;
+}
+.navbar-dropdown.is-boxed {
+  border-radius: 0 !important;
+}
+.navbar.is-light .navbar-item.has-dropdown:hover .navbar-link {
+  background-color: #b6282d !important;
+  color: white !important;
+}
+a.navbar-item:hover {
+  background-color: #b6282d !important;
+  color: white !important;
+}
+.box {
+  border-radius: 0 !important;
+  padding: 1rem !important;
+}
+.footer {
+  padding: 2em 1.5em !important;
+}
+.button.is-primary {
+  background-color: #b6282d !important;
+}
+.button.is-primary:hover {
+  background-color: #952125 !important;
+}
+.classes-hero {
+  background: linear-gradient(to right, rgb(7, 0, 0), #b6282d, rgb(7, 0, 0));
+}
+.content {
+  padding-top: 10px;
+}
+.contact-form {
+  height: 400px;
+  padding-top: 35px;
+}
+.add-margin {
+  margin-top: 100px;
+}
+.navbar-menu {
+  background: linear-gradient(to right, rgb(7, 0, 0), #b6282d, rgb(7, 0, 0));
+}
+.navbar-brand {
+  background: linear-gradient(to left, rgb(7, 0, 0), #000000, rgb(7, 0, 0));
+}
+.title {
+  color: white;
+}
+.navbar-item img {
+  max-height: 2.75rem !important;
+}
+footer .title {
+  font-size: 1.5rem;
+}
+.card {
+  height: auto;
+  max-height: 1000vh !important;
+}
+div.column.card {
+  max-height: 100vh !important;
+}
+.room-img {
+  object-fit: cover;
+}
+
+/* MindBody Styles */
+
+a {
+  color: white !important;
+}
+table th {
+  color: white;
+}
+table.hc_info.stacked {
+  margin: 0 auto !important;
+}
+input[type="text"] {
+  width: 260px;
+}
+.class_show {
+  width: 100% !important;
+}
+div.healcode label {
+  font-size: 16px;
+  font-weight: 200;
+}
+div.list_view li {
+  border: none !important;
+}
+div.healcode .hc_registration table.side-by-side tr td {
+  color: white;
+}
